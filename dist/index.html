@@ -4,16 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack App</title>
-<script defer src="bundle411be5b30af19d8c1959.js"></script></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Library</title>
+<script defer src="bundleb55801cb0bd2cedcf080.js"></script></head>
 <body>
-    <div class="container">
-        <img id="profilePic" src="" alt="">
-        <h3>Don't Laugh Challange</h3>
-        <div id="joke" class="joke">
-            
+    <div class="bg-image"></div>
+    <header>
+        <div class="bg-header"></div>
+        <h1>Library</h1>
+        <div class="add-container">
+            <i class="fa-solid fa-plus"></i>
+            <p>Add a book</p>
         </div>
-        <button id="jokeBtn" class="btn">Get Another Joke</button>
+        <div class="login-container">
+            <p>Log In</p>
+        </div>
+        
+    </header>
+    <div class="modal-add">
+        <div class="container gradient-bg">
+            <i id="modal-close" class="fa-solid fa-x"></i>
+            <h1>Add a new book</h1>
+            <form class="addForm">
+                <input type="text" name="title" placeholder="Title" required>
+                <input type="text" name="author" placeholder="Author" required>
+                <input type="number" name="pages" placeholder="Pages" required min="0">
+                <div class="read-container">
+                    <p>Have you read the book?</p>
+                    <div class="container">
+                        <button class="yesBtn" type="button">Yes</button>
+                        <button class="noBtn" type="button">No</button>
+                    </div>
+                </div>
+                <button class="add-btn">Add Book</button>
+            </form>
+        </div>   
+    </div>
+    <div class="card-container">
+       
     </div>
 </body>
 </html>
